@@ -22,7 +22,7 @@ public class Solution {
             return false;
         
         //cycle이 있는 경우
-        while(pointer2.next != null && pointer2.next.next != null){//두 칸이 연속으로 null인 경우
+        while(pointer2.next != null && pointer2.next.next != null){//두 칸이 연속으로 null이 아닌 경우
             pointer1 = pointer1.next;
             pointer2 = pointer2.next.next;
             
