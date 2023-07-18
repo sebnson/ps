@@ -11,7 +11,9 @@
 - minHeap의 값 2차원 배열로 변환해서 반환
 - minHeap에서 원소를 추출 -> res에 역순으로 저장 (거리 가까운 순 res 저장됨)<br/><br/>
 
-<br/><br/><br/>
+<br/>
+다른 풀이방식: [정렬 이용하기](https://jaime-note.tistory.com/187)
+<br/><br/>
   PriorityQueue
 - 데이터의 우선순위를 정해 우선순위가 높은 순서대로 나가는 것
 - 우선순위 힙으로 구현
