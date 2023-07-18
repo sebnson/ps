@@ -12,7 +12,7 @@
 - minHeap에서 원소를 추출 -> res에 역순으로 저장 (거리 가까운 순 res 저장됨)<br/><br/>
 
 <br/>
-다른 풀이방식: [정렬 이용하기](https://jaime-note.tistory.com/187)
+다른 풀이방식: 정렬 이용하기(https://jaime-note.tistory.com/187)
 
 <br/><br/>
   PriorityQueue
