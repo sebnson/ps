@@ -5,8 +5,7 @@
   
 - points 배열에서 각 점의 x, y 값을 추출-> minHeap 저장.
 - Distance는 피타고라스 공식(a^2 + b^2 = c^2) 사용
-- minHeap.offer(point)로 minHeap에 원소 추가 (k보다 클 시 우선순위가 가장 낮은 원소 제거(minHeap.poll())
-- 결국 minHeap에는 가장 가까운 k개의 점이 남게 됩니다.
+- minHeap.offer(point)로 minHeap에 원소 추가 (k보다 클 시 우선순위가 가장 낮은 원소 제거(minHeap.poll() -> 가장 가까운 원소 남기기)
 
 
 - minHeap의 값 2차원 배열로 변환해서 반환
