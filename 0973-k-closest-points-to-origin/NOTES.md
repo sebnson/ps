@@ -13,14 +13,14 @@
 
 
   PriorityQueue
-데이터의 우선순위를 정해 우선순위가 높은 순서대로 나가는 것
-우선순위 힙으로 구현
-데이터를 삽입시 우선순위의 최대, 최소를 구성 -> 데이터가 빠지면 공백을 채워넣는 방식
+- 데이터의 우선순위를 정해 우선순위가 높은 순서대로 나가는 것
+- 우선순위 힙으로 구현
+- 데이터를 삽입시 우선순위의 최대, 최소를 구성 -> 데이터가 빠지면 공백을 채워넣는 방식
 
   특징
-값을 비교해야 함 -> null 비허용, 비교 불가 객체는 큐 생성 불가
-내부구조 -> 이진트리 힙 (add() 및 poll() 메서드(추가, 삭제 메서드) 0(log(n)) 시간 소요)
-AbstractQueue , AbstractCollection , Collection 및 Object클래스에서 메소드 상속
+- 값을 비교해야 함 -> null 비허용, 비교 불가 객체는 큐 생성 불가
+- 내부구조 -> 이진트리 힙 (add() 및 poll() 메서드(추가, 삭제 메서드) 0(log(n)) 시간 소요)
+- AbstractQueue , AbstractCollection , Collection 및 Object클래스에서 메소드 상속
 
 [출처](https://crazykim2.tistory.com/575)
 
