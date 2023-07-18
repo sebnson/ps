@@ -13,6 +13,7 @@
 
 <br/>
 다른 풀이방식: [정렬 이용하기](https://jaime-note.tistory.com/187)
+
 <br/><br/>
   PriorityQueue
 - 데이터의 우선순위를 정해 우선순위가 높은 순서대로 나가는 것
