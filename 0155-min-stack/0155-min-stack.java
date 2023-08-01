@@ -17,9 +17,8 @@ class MinStack {
     }
 
     public void pop() {
-        if (stack.pop() == min) {
+        if (stack.pop() == min) 
             min = stack.pop();
-        }
     }
 
     public int top() {
